@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import '../src/assets/styles/styles.css';
 import Nav from './components/nav';
-import App from './App';
+import Banner from './components/banner';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -10,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
     <Nav/>
+    <Banner/>
   </React.StrictMode>,
   document.getElementById('root')
 );

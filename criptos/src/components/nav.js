@@ -15,17 +15,20 @@ function Nav(){
                 <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a className="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Criptomonedas</a>
+                        <a className="nav-link" href="#">Criptomonedas</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="#">Precios</a>
+                        <a className="nav-link" href="#">Precios</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Información</a>
                     </li>
                 </ul>
                 <span className="navbar-text">
-                    <button type="button" class="suscriptionButton btn btn-light btn-sm">Suscribirse</button>
+                    <button type="button" className="suscriptionButton btn btn-light btn-sm">Suscribirse</button>
                 </span>
                 </div>
             </div>
